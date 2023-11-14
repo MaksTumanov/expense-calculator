@@ -1,0 +1,38 @@
+.expense-calculator {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+.expense-calculator__form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.expense-calculator__input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.expense-calculator__button {
+  padding: 5px 10px;
+}
+
+.expense-calculator__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.expense-calculator__list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.expense-calculator__total {
+  font-weight: bold;
+  margin-top: 10px;
+}
